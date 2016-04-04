@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:id="@+id/action_contact"-->
+        <!--android:icon="@drawable/ic_action_user"-->
+        <!--android:showAsAction="ifRoom"-->
+        <!--android:title="@string/action_contact" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_settings"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_settings"-->
+        <!--android:showAsAction="ifRoom"/>-->
+    <item
+        android:id="@+id/like"
+        android:orderInCategory="200"
+        android:title="我喜欢"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/near"
+        android:orderInCategory="300"
+        android:title="最近播放"
+        android:showAsAction="never" />
+
+</menu>
